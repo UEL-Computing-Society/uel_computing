@@ -1,0 +1,106 @@
+/* Navbar.css */
+
+/* General styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--db); /* Dark background color */
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--slb); 
+}
+
+/* Dropdown container */
+.dropdown-container {
+  position: relative;
+}
+
+/* Three-bar menu button */
+.menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 25px;
+  position: relative;
+  z-index: 10;
+  transition: transform 0.3s ease;
+}
+
+
+/* Individual bars */
+.menu-bar {
+  background-color: var(--slb); 
+  height: 3px;
+  width: 100%;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Transform bars into a cross when 'open' */
+.menu-btn.open .menu-bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-btn.open .menu-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-btn.open .menu-bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333; /* Slightly lighter dark */
+  list-style: none;
+  margin: 20px;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  transform: translateX(100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 5;
+}
+
+/* Show dropdown menu */
+.dropdown-menu.show {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+.dropdown-menu li a {
+  color: var(--tc); /* Light text */
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: color 0.3s ease;
+  transition: font-size 0.5s ease;
+}
+
+.dropdown-menu li a:hover {
+  color: var(--slb); /* Gold on hover */
+  font-size: 1.8rem;
+}
