@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">UEL Computing Society</div>
+      <div className="navbar-brand">UEL Student Chapters</div>
       <div className="dropdown-container">
         <button 
           className={`menu-btn ${isDropdownOpen ? 'open' : ''}`} 
