@@ -4,6 +4,5 @@
 	"features": {
 		"ghcr.io/duduribeiro/devcontainer-features/neovim:1": {},
 		"ghcr.io/duduribeiro/devcontainer-features/tmux:1": {}
-	},
-	"forwardPorts": [3000]
+	}
 }
