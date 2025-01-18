@@ -1,0 +1,11 @@
+html{
+  width: 100%;
+}
+
+:root {
+  --lb: #0a957e;  /* Background Light beige color */
+  --slb:#03ceac;  /* Text Light beige color */
+  --db: #191716;  /* Dark color */
+  --tc: #FFFFFF;  /* White text color */
+  --stc: #9EA48E; /* Light neutral text color */
+}
