@@ -37,7 +37,7 @@
 - **Visit our website**: []()
 
 ## Social Media 
-- **Instagram**: [Link](https://www.instagram.com/uel_computingsociety?igsh=MWh4dzh3aGl2ZmhqeQ==)
+- **Instagram**: [Link](https://www.instagram.com/uel_computingsociety)
 - **LinkedIn**: []()
 
 
