@@ -1,5 +1,10 @@
 ## Events
 
+### Upcoming Events
+- **Date** :
+- **Description**: 
+- **Venue**:
+
 ### Past Events  
 
 - **First event: Students' Union Mini Fair**
@@ -10,8 +15,3 @@
   |-----|-----|
   |8/11/2024| University Of East London, Stratford Campus|
   |4/12/2024| University Of East London, Docklands Campus|
-
-### Upcoming Events
-- **Date** :
-- **Description**: 
-- **Venue**:
