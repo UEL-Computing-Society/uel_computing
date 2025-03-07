@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 18
           cache: 'npm'
           
       - name: Install dependencies
@@ -27,9 +27,8 @@ jobs:
         env:
           CI: false # This prevents the build from failing on warnings
           
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.8
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
-          clean: true # Automatically remove deleted files from the deploy branch
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
