@@ -6,8 +6,7 @@
 - **Mission** :
 - **Vision** :
 - **Logo** :  
-![Computing Society Logo](UEL-Computing%20Society%20Logo.jpg)
-
+![Computing Society Logo](../assets/logo.jpg)
 
 ## Meet the Team
 ### Meet the Team Behind the UEL Computing Society!
