@@ -12,15 +12,13 @@
 ### Meet the Team Behind the UEL Computing Society!
 
 - **Nidharshanen Selliah** - _President_  
-  Leading the way with passion and a vision for excellence, Nidharshanen is here to guide the society towards innovation, growth, and meaningful connections. Got ideas for the society? Nidharshanen is all ears!
+  Leads the society by setting goals, overseeing operations, and ensuring activities align with its mission. Acts as the primary spokeperson and manages event planning and execution.
 
 - **Yalina Ansari** - _Finance Officer_  
   The mastermind behind our budgeting and resources, Yalina ensures we have the funds to support exciting events and initiatives. They keep our society running smoothly behind the scenes!
 
-- **Abdul Wahab** - _Events Officer_  
-  From hackathons to social mixers, Abdul Wahab is the creative force organizing events that bring our community together. Stay tuned for all the fun and opportunities they have planned!
- 
-
+- **Fatema Doctor** - _Events Officer_  
+  Plan, organize, and oversee society events, including workshops, social gatherings, fundraisers, and competitions. Manage venue booking, equipment, and resources. Ensure smooth event execution and share feedback for improvement.
 ---
 
 ## [Meetings](Meetings.md)
@@ -37,7 +35,7 @@
 
 ## Social Media 
 - **Instagram**: [Link](https://www.instagram.com/uel_computingsociety)
-- **LinkedIn**: []()
+- **LinkedIn**: [Link](https://www.linkedin.com/company/uel-computing-society)
 
 
 
